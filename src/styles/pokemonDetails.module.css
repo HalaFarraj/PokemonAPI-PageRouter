@@ -1,0 +1,186 @@
+.pageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 64px;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+  max-width: 515px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  background-color: #90e982;
+  padding: 20px;
+}
+
+.detailsContainer {
+  height: 100%;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+.heightWeightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.styledText {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0px 15px;
+}
+
+.ImageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  position: absolute;
+  background-color: white;
+  top: -82px;
+  left: 172px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 95px;
+  gap: 20px;
+}
+
+.nameDescriptionContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.nameHeading {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.abilitiesStatsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.abilities {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  overflow: hidden auto;
+  height: 250px;
+}
+
+.ability {
+  font-size: 18px;
+}
+
+.barWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.labelValueWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+  .abilitiesStatsContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .abilities,
+  .stats {
+    width: 100%;
+  }
+
+  .ImageWrapper {
+    height: 130px;
+    width: 130px;
+    top: -55px;
+    left: 33%;
+  }
+}
+
+.fire {
+  background-color: rgb(223 143 143 / 41%);
+}
+
+.firePower {
+  background-color: rgb(248 90 90 / 44%);
+}
+
+.water {
+  background-color: #e2ede7;
+}
+
+.waterPower {
+  background-color: #bbceef;
+}
+
+.grass {
+  background-color: #8ee7b698;
+}
+
+.grassPower {
+  background-color: #6edfa198;
+}
+
+.bug {
+  background-color: #8ff3bc;
+}
+
+.bugPower {
+  background-color: #70d39d;
+}
+
+.normal {
+  background-color: #dbd5d5be;
+}
+
+.normalPower {
+  background-color: #b1a6a6be;
+}
