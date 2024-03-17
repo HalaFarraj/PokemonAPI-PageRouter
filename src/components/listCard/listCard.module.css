@@ -6,10 +6,6 @@
   min-width: 260px;
 }
 
-p {
-  color: black;
-}
-
 .indexPowerWrapper {
   display: flex;
   width: 100%;
