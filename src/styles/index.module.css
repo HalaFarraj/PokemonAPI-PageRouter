@@ -13,3 +13,9 @@
   margin-top: 80px;
   padding: 20px 120px;
 }
+
+@media only screen and (max-width: 768px) {
+  .gridWrapper {
+    padding: 25px;
+  }
+}
